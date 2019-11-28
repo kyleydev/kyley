@@ -1,0 +1,70 @@
+/* Variables */
+$bgcolor: #eee;
+
+$violet: #6a5687;
+$orange: #eb7239;
+$bleu: #0c5b7a;
+$rouge: #cc2d18;
+$vert: #8E9C48;
+$jaune: #C48A1B;
+$marron: #5d4037;
+
+$ombre: 0px 3px 4px rgba(50, 50, 50, 0.2);
+$img-ombre: 0px 2px 6px rgba(50, 50, 50, 0.4);
+$carousel-ombre: 0px 3px 3px rgba(50, 50, 50, 0.5);
+$button-ombre: 0px 1px 1px rgba(50, 50, 50, 0.5);
+
+/* Frameworks */
+// @import 'frameworks/bootstrap3';
+// @import 'frameworks/bootstrap4'; => nav.scss
+
+/* Fonts */
+@import '../../../node_modules/fork-awesome/css/fork-awesome.min.css';
+@import 'fonts/ptsans_caption';
+@import 'fonts/roboto';
+
+/* Frama */
+@import 'frama/common';
+
+/*
+  Bootstrap 4 import
+  + conflicts resolution
+  + #f-nav container
+*/
+@import 'nav';
+
+/* Components */
+@import 'header';
+@import 'alert';
+@import 'optin';
+// @import 'feedback/feedback';
+@import 'footer';
+
+/* Sites Frama */
+@import 'sites/bin';
+@import 'sites/board';
+@import 'sites/bookin';
+@import 'sites/calc';
+@import 'sites/carte';
+@import 'sites/clic';
+@import 'sites/colibri';
+@import 'sites/date';
+@import 'sites/forms';
+@import 'sites/gitbook'; /* docs~, participer~, ~cloud */
+@import 'sites/libre';
+@import 'sites/listes';
+@import 'sites/localhost'; /* tests */
+@import 'sites/mindmap';
+@import 'sites/news';
+@import 'sites/pad';
+@import 'sites/pic';
+@import 'sites/status';
+@import 'sites/team';
+@import 'sites/vectoriel';
+@import 'sites/vox';
+@import 'sites/wiki';
+
+/* Ajustements */
+@import 'inframe';
+@import 'mute';
+@import 'overflow';

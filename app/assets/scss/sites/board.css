@@ -1,0 +1,70 @@
+[data-url*=".framaboard.org/"],
+[data-url*=".localhost"] {
+  background: #fff !important;
+  /* Button color from Framacss */ }
+  [data-url*=".framaboard.org/"] body,
+  [data-url*=".localhost"] body {
+    background: #fff !important; }
+  [data-url*=".framaboard.org/"] #f-navbar a.btn-info i,
+  [data-url*=".framaboard.org/"] #f-navbar a.btn-soutenir i,
+  [data-url*=".framaboard.org/"] #f-navbar a.btn-primary i,
+  [data-url*=".localhost"] #f-navbar a.btn-info i,
+  [data-url*=".localhost"] #f-navbar a.btn-soutenir i,
+  [data-url*=".localhost"] #f-navbar a.btn-primary i {
+    color: #fff !important; }
+  [data-url*=".framaboard.org/"] a.btn-red,
+  [data-url*=".framaboard.org/"] .btn-red,
+  [data-url*=".localhost"] a.btn-red,
+  [data-url*=".localhost"] .btn-red {
+    /* = btn-danger */
+    color: #fff;
+    text-shadow: 0 0 3px rgba(0, 0, 0, 0.7);
+    background-color: #CC2D18;
+    border-color: #CC2D18; }
+    [data-url*=".framaboard.org/"] a.btn-red:hover, [data-url*=".framaboard.org/"] a.btn-red:focus,
+    [data-url*=".framaboard.org/"] .btn-red:hover,
+    [data-url*=".framaboard.org/"] .btn-red:focus,
+    [data-url*=".localhost"] a.btn-red:hover,
+    [data-url*=".localhost"] a.btn-red:focus,
+    [data-url*=".localhost"] .btn-red:hover,
+    [data-url*=".localhost"] .btn-red:focus {
+      color: #fff;
+      background-color: #B82E12;
+      border-color: #B82E12; }
+  [data-url*=".framaboard.org/"] a.btn-blue,
+  [data-url*=".framaboard.org/"] .btn-blue,
+  [data-url*=".localhost"] a.btn-blue,
+  [data-url*=".localhost"] .btn-blue {
+    color: #fff;
+    text-shadow: 0 0 3px rgba(0, 0, 0, 0.7);
+    background-color: #6A5687;
+    border-color: #6A5687; }
+    [data-url*=".framaboard.org/"] a.btn-blue:hover, [data-url*=".framaboard.org/"] a.btn-blue:focus,
+    [data-url*=".framaboard.org/"] .btn-blue:hover,
+    [data-url*=".framaboard.org/"] .btn-blue:focus,
+    [data-url*=".localhost"] a.btn-blue:hover,
+    [data-url*=".localhost"] a.btn-blue:focus,
+    [data-url*=".localhost"] .btn-blue:hover,
+    [data-url*=".localhost"] .btn-blue:focus {
+      color: #fff;
+      background-color: #635182;
+      border-color: #635182; }
+    [data-url*=".framaboard.org/"] a.btn-blue:disabled,
+    [data-url*=".framaboard.org/"] .btn-blue:disabled,
+    [data-url*=".localhost"] a.btn-blue:disabled,
+    [data-url*=".localhost"] .btn-blue:disabled {
+      color: #777;
+      text-shadow: none;
+      border: 1px solid #ccc;
+      background: #f7f7f7; }
+  [data-url*=".framaboard.org/"] a:focus,
+  [data-url*=".localhost"] a:focus {
+    border: none; }
+  [data-url*=".framaboard.org/"] #ui-datepicker-div,
+  [data-url*=".localhost"] #ui-datepicker-div {
+    z-index: 1002 !important;
+    /* Above the nav */ }
+  [data-url*=".framaboard.org/"] #modal-box,
+  [data-url*=".localhost"] #modal-box {
+    max-height: calc(100% - 65px);
+    top: 60px; }

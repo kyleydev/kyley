@@ -1,0 +1,79 @@
+#ffb-contact-form {
+  padding: 15px; }
+  #ffb-contact-form form {
+    display: inline;
+    /* ~calc */ }
+  #ffb-contact-form .form-group {
+    margin-left: 0;
+    /* soutenir~ */ }
+  #ffb-contact-form .text-muted {
+    display: none; }
+  #ffb-contact-form .alert, #ffb-contact-form input, #ffb-contact-form .btn {
+    border-radius: 0; }
+  #ffb-contact-form .input-group-addon {
+    border-right: 0;
+    border-left: 0;
+    background: #fff; }
+  #ffb-contact-form input, #ffb-contact-form textarea, #ffb-contact-form select {
+    border-right: 0;
+    border-left: 0;
+    box-shadow: none;
+    opacity: 1; }
+  #ffb-contact-form .alert {
+    margin: 0;
+    border: 0;
+    font-size: 13px;
+    font-weight: normal; }
+    #ffb-contact-form .alert a {
+      background: linear-gradient(to top, #ccc 1px, transparent 1px); }
+      #ffb-contact-form .alert a:hover, #ffb-contact-form .alert a:focus {
+        background: linear-gradient(to top, #bbb 1px, #ffffff77 1px);
+        text-decoration: none; }
+  #ffb-contact-form textarea {
+    clear: left;
+    float: none;
+    border: 0;
+    border-left: 1px dashed #ccc; }
+  #ffb-contact-form #name_wrapper,
+  #ffb-contact-form #email_wrapper {
+    margin-bottom: 0; }
+    #ffb-contact-form #name_wrapper .input-group-addon, #ffb-contact-form #name_wrapper input,
+    #ffb-contact-form #email_wrapper .input-group-addon,
+    #ffb-contact-form #email_wrapper input {
+      border-top: 0; }
+    #ffb-contact-form #name_wrapper .alert,
+    #ffb-contact-form #email_wrapper .alert {
+      padding-top: 5px;
+      background: transparent;
+      /* participer~, docs~, ~cloud, ~board */
+      color: inherit;
+      /* ~board */
+      letter-spacing: initial;
+      /* participer~ */ }
+  #ffb-contact-form #subject_wrapper .input-group-addon, #ffb-contact-form #subject_wrapper input, #ffb-contact-form #subject_wrapper select,
+  #ffb-contact-form #concerne_wrapper .input-group-addon,
+  #ffb-contact-form #concerne_wrapper input,
+  #ffb-contact-form #concerne_wrapper select {
+    border-top: 0; }
+  #ffb-contact-form #message_wrapper {
+    margin-bottom: 0;
+    background: #fff; }
+    #ffb-contact-form #message_wrapper .input-group-addon {
+      vertical-align: top;
+      padding-top: 10px;
+      border: 0; }
+    #ffb-contact-form #message_wrapper .alert {
+      margin: 0 5px 5px -44px;
+      padding: 5px 10px; }
+  #ffb-contact-form #subject_wrapper,
+  #ffb-contact-form #concerne_wrapper {
+    margin-bottom: 0; }
+  #ffb-contact-form #file_wrapper {
+    background: #fff; }
+    #ffb-contact-form #file_wrapper .input-group-addon, #ffb-contact-form #file_wrapper input[type="file"] {
+      border-bottom: 0;
+      height: auto;
+      line-height: 30px; }
+  #ffb-contact-form #concerne_wrapper .input-group-addon,
+  #ffb-contact-form #file_wrapper .input-group-addon {
+    cursor: help; }

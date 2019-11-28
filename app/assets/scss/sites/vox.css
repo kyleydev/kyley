@@ -1,0 +1,68 @@
+[data-url*="://framavox.org"] {
+  /* Fix nav */
+  /* Fix Loomio */ }
+  [data-url*="://framavox.org"]#f-- {
+    background: #eee; }
+  [data-url*="://framavox.org"] #fp-vox {
+    color: #333; }
+    [data-url*="://framavox.org"] #fp-vox .lead {
+      font-size: 21px; }
+    [data-url*="://framavox.org"] #fp-vox .trait {
+      height: 11px;
+      border: none; }
+  [data-url*="://framavox.org"] body > .navbar.navbar-top {
+    margin-top: 42px; }
+  [data-url*="://framavox.org"] header.lmo-navbar {
+    top: 42px; }
+  [data-url*="://framavox.org"] .lmo-one-column-layout, [data-url*="://framavox.org"] .lmo-two-column-layout {
+    padding-top: 90px; }
+  [data-url*="://framavox.org"] .navbar__middle a {
+    text-decoration: none !important; }
+  [data-url*="://framavox.org"] md-toolbar.md-default-theme:not(.md-menu-toolbar), [data-url*="://framavox.org"] md-toolbar:not(.md-menu-toolbar),
+  [data-url*="://framavox.org"] md-toolbar.md-default-theme:not(.md-menu-toolbar) h1, [data-url*="://framavox.org"] md-toolbar:not(.md-menu-toolbar) h1,
+  [data-url*="://framavox.org"] .modal-header-cancel-button {
+    background: #6A5687 !important;
+    color: #fff !important; }
+  [data-url*="://framavox.org"] .sessions.new .terms,
+  [data-url*="://framavox.org"] .registrations.create .terms,
+  [data-url*="://framavox.org"] .registrations.new .terms,
+  [data-url*="://framavox.org"] .angular-feedback-card,
+  [data-url*="://framavox.org"] #dialogContent_3 .lmo-h3,
+  [data-url*="://framavox.org"] .signin_container .sign_up,
+  [data-url*="://framavox.org"] #sign-in .col-md-6:nth-child(1) > p:nth-child(3) {
+    display: none; }
+  [data-url*="://framavox.org"] .sessions.new header h1,
+  [data-url*="://framavox.org"] .registrations.create header h1,
+  [data-url*="://framavox.org"] .registrations.new header h1 {
+    font-size: 48px !important;
+    margin-top: 20px !important;
+    margin-bottom: 10px !important; }
+  [data-url*="://framavox.org"] .sessions.new .alert,
+  [data-url*="://framavox.org"] .registrations.create .alert,
+  [data-url*="://framavox.org"] .registrations.new .alert {
+    margin: 0 auto; }
+  [data-url*="://framavox.org"] .container {
+    max-width: 100%; }
+  [data-url*="://framavox.org"] .start-menu__modal-backdrop[style*="block"] {
+    display: none !important; }
+  [data-url*="://framavox.org"] .thread-lintel__wrapper {
+    top: 86px; }
+  [data-url*="://framavox.org"] .start-menu__start-button {
+    background: #6A5687; }
+  [data-url*="://framavox.org"] #menu_container_1 md-menu-item:nth-of-type(5) {
+    display: none; }
+  [data-url*="://framavox.org"] .logged-out #fp-vox[style] {
+    display: block !important; }
+  [data-url*="://framavox.org"] .logged-out .md-dialog-container,
+  [data-url*="://framavox.org"] .logged-out .md-scroll-mask,
+  [data-url*="://framavox.org"] .logged-out .md-dialog-backdrop,
+  [data-url*="://framavox.org"] .logged-out .lmo-navbar {
+    display: none; }
+  [data-url*="://framavox.org"] .home-hidden #fp-vox[style] {
+    display: none !important; }
+  [data-url*="://framavox.org"] .home-hidden .md-scroll-mask,
+  [data-url*="://framavox.org"] .home-hidden .md-dialog-backdrop,
+  [data-url*="://framavox.org"] .home-hidden .lmo-navbar {
+    display: block; }
+  [data-url*="://framavox.org"] .home-hidden .md-dialog-container {
+    display: flex; }

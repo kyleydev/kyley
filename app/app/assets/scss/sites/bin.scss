@@ -1,0 +1,47 @@
+[data-url*="://framabin.org/p/"] {
+  body {
+    padding: 0;
+  }
+
+  #f-bin-header {
+    a {
+      text-decoration: none;
+    }
+
+    .trait {
+      height: 11px;
+      border: none;
+    }
+  }
+
+  .container .container {
+    width: auto;
+    padding: 0;
+  }
+
+  #f-navbar .dropdown-menu > li > div {
+    white-space: inherit;
+    padding: 0;
+  }
+
+  .reloadlink.navbar-brand {
+    display:none;
+  }
+
+  .navbar .container,
+  #navbar,
+  #navbar .navbar-nav,
+  #navbar .navbar-nav li:first-of-type{
+    padding: 0;
+    margin: 0;
+  }
+
+  .navbar {
+    background: transparent;
+    border: none;
+  }
+
+  footer.container {
+    display: none;
+  }
+}

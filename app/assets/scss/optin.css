@@ -1,0 +1,41 @@
+/* Opt-in */
+#fp-optin .alert {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 13px;
+  padding: 10px;
+  line-height: 17px; }
+  #fp-optin .alert a, #fp-optin .alert a:hover {
+    color: #0C5B7A;
+    font-weight: bold; }
+  #fp-optin .alert.alert-info {
+    color: #0C5B7A;
+    background-color: #E1F8FC;
+    border-color: #B2D5DB; }
+  #fp-optin .alert.alert-danger {
+    color: #AB2909;
+    background-color: #fde0dc;
+    border-color: #E0B3A8; }
+  #fp-optin .alert.alert-success {
+    color: #304219;
+    background: #E3EBC7;
+    border-color: #C0D481; }
+#fp-optin #commentform .alert {
+  /* wordpress */
+  min-width: 555px; }
+#fp-optin #f-optin {
+  font-family: 'Roboto'; }
+  #fp-optin #f-optin small {
+    font-size: 11px; }
+  #fp-optin #f-optin input {
+    margin: 0;
+    width: auto;
+    display: inline-block; }
+  #fp-optin #f-optin label {
+    float: none;
+    width: auto;
+    text-align: left;
+    font-weight: normal;
+    margin: 0px 0px 0px 5px;
+    white-space: normal;
+    color: #0C5B7A; }

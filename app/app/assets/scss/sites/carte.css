@@ -1,0 +1,16 @@
+@charset "UTF-8";
+/* Cartes publiques */
+[data-url*="://framacarte.org/"][data-inframe="false"] .map_detail .leaflet-top {
+  top: 42px; }
+[data-url*="://framacarte.org/"][data-inframe="false"] .map_detail #umap-alert-container {
+  top: 42px; }
+[data-url*="://framacarte.org/"][data-inframe="false"] .map_detail #umap-tooltip-container {
+  top: 102px; }
+
+/* Cartes mode édition */
+[data-url*="://framacarte.org/"][data-inframe="false"] .umap-edit-enabled .umap-main-edit-toolbox {
+  top: 42px; }
+[data-url*="://framacarte.org/"][data-inframe="false"] .umap-edit-enabled .leaflet-top {
+  top: 90px; }
+[data-url*="://framacarte.org/"][data-inframe="false"] .umap-edit-enabled #umap-ui-container {
+  top: 88px; }

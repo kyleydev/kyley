@@ -1,0 +1,66 @@
+#f-- #f-alert {
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  border-radius: 0 !important;
+  font-family: 'Roboto'; }
+  #f-- #f-alert.alert-info.black {
+    color: #fff !important;
+    background-color: #010001 !important;
+    border-color: #010001 !important; }
+    #f-- #f-alert.alert-info.black .saveyourinternet {
+      width: 100%;
+      display: block;
+      background-color: #010001 !important;
+      border-color: #010001 !important;
+      text-align: center; }
+      #f-- #f-alert.alert-info.black .saveyourinternet:hover, #f-- #f-alert.alert-info.black .saveyourinternet:focus {
+        background-color: #010001 !important; }
+  #f-- #f-alert.alert {
+    margin-bottom: 0;
+    font-size: 14px;
+    line-height: 20px;
+    text-shadow: none; }
+    #f-- #f-alert.alert p {
+      margin-bottom: 5px;
+      margin-top: 0px; }
+    #f-- #f-alert.alert a:not(.btn) {
+      text-decoration: underline !important;
+      -moz-text-decoration-style: dotted;
+      -webkit-text-decoration-style: dotted;
+      -ms-text-decoration-style: dotted;
+      text-decoration-style: dotted; }
+      #f-- #f-alert.alert a:not(.btn):hover, #f-- #f-alert.alert a:not(.btn):focus {
+        text-decoration: underline !important;
+        -moz-text-decoration-style: solid;
+        -webkit-text-decoration-style: solid;
+        -ms-text-decoration-style: solid;
+        text-decoration-style: solid; }
+    #f-- #f-alert.alert a {
+      font-weight: inherit !important; }
+  #f-- #f-alert.alert-success a:not(.btn), #f-- #f-alert.alert-success a:hover:not(.btn), #f-- #f-alert.alert-success {
+    color: #304219;
+    background: #E3EBC7;
+    border-color: #C0D481; }
+  #f-- #f-alert.alert-info a:not(.btn), #f-- #f-alert.alert-info a:hover:not(.btn), #f-- #f-alert.alert-info {
+    color: #0C5B7A;
+    background-color: #E1F8FC;
+    border-color: #B2D5DB; }
+  #f-- #f-alert.alert-warning a:not(.btn), #f-- #f-alert.alert-danger a:hover:not(.btn), #f-- #f-alert.alert-warning {
+    color: #A15014;
+    background-color: #FFEBB5;
+    border-color: #FFCF4F; }
+  #f-- #f-alert.alert-danger a:not(.btn), #f-- #f-alert.alert-danger a:hover:not(.btn), #f-- #f-alert.alert-danger {
+    color: #AB2909;
+    background-color: #fde0dc;
+    border-color: #E0B3A8; }
+  #f-- #f-alert.alert-dismissible .close {
+    right: 0px;
+    margin-right: 5px;
+    margin-top: -5px; }
+  #f-- #f-alert .clearfix {
+    height: auto !important;
+    overflow: visible !important; }
+  #f-- #f-alert > div {
+    margin: 0 auto;
+    max-width: 800px; }

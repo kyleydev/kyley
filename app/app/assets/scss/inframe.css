@@ -1,0 +1,7 @@
+[data-url*="://docs.framasoft.org"][data-inframe="true"] .book,
+[data-url*="://participer.framasoft.org"][data-inframe="true"] .book,
+[data-url*="://framacloud.org"][data-inframe="true"] .book {
+  height: 100%; }
+
+[data-url*="://degooglisons-internet.org"][data-inframe="true"] body:not(#home) main {
+  margin-top: 0; }

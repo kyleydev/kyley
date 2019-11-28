@@ -1,0 +1,18 @@
+[data-url*="://wiki.framasoft.org"] {
+  #dokuwiki__usertools {
+    top: 50px;
+  }
+
+  #dokuwiki__site {
+    max-width: 90em;
+  }
+
+  #framafooter[style] {
+    display:block;
+    position: relative !important;
+  }
+
+  #dw__footer {
+    display: none;
+  }
+}

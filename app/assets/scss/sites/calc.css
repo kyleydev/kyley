@@ -1,0 +1,15 @@
+[data-url*="://framacalc.org"] [onresize],
+[data-url*="://lite.framacalc.org"] [onresize] {
+  /* dans Ethercalc */
+  background: #fff;
+  overflow: hidden; }
+  [data-url*="://framacalc.org"] [onresize] *, [data-url*="://framacalc.org"] [onresize] *:before, [data-url*="://framacalc.org"] [onresize] *:after,
+  [data-url*="://lite.framacalc.org"] [onresize] *,
+  [data-url*="://lite.framacalc.org"] [onresize] *:before,
+  [data-url*="://lite.framacalc.org"] [onresize] *:after {
+    -webkit-box-sizing: content-box !important;
+    -moz-box-sizing: content-box !important;
+    box-sizing: content-box !important; }
+  [data-url*="://framacalc.org"] [onresize] #msg,
+  [data-url*="://lite.framacalc.org"] [onresize] #msg {
+    top: 48px; }

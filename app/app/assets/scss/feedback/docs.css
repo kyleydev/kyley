@@ -1,0 +1,22 @@
+#modal-fsDocs .modal-content {
+  border-radius: 0;
+  border: none;
+  border-top: 8px solid #DBA306;
+  height: 94vh;
+  background: #fff;
+  /* ~team */ }
+#modal-fsDocs .embed-responsive-4by3 {
+  padding-bottom: calc(94vh - 68px); }
+#modal-fsDocs .modal-header {
+  display: none; }
+#modal-fsDocs .modal-body {
+  padding: 0;
+  max-height: none;
+  background: transparent;
+  /* ~team */ }
+#modal-fsDocs .modal-footer {
+  border: none;
+  margin: 0;
+  /* ~mindmap */
+  background: transparent;
+  /* ~team */ }

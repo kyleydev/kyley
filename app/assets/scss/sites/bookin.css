@@ -1,0 +1,8 @@
+[data-url*="://framabookin.org/b"] .ui-page {
+  margin-top: 0px; }
+[data-url*="://framabookin.org/b"] .ui-header {
+  margin-top: 42px; }
+[data-url*="://framabookin.org/b"] .ui-content header {
+  margin-bottom: 40px; }
+[data-url*="://framabookin.org/b"] a[href*="admin"] {
+  display: none; }

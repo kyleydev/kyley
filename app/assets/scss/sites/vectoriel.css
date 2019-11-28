@@ -1,0 +1,37 @@
+[data-url*="://framavectoriel.org/svg-editor.html"][data-inframe="false"] {
+  /* +52px partout */ }
+  [data-url*="://framavectoriel.org/svg-editor.html"][data-inframe="false"] *, [data-url*="://framavectoriel.org/svg-editor.html"][data-inframe="false"] *:before, [data-url*="://framavectoriel.org/svg-editor.html"][data-inframe="false"] *:after {
+    -webkit-box-sizing: content-box !important;
+    -moz-box-sizing: content-box !important;
+    box-sizing: content-box !important; }
+  [data-url*="://framavectoriel.org/svg-editor.html"][data-inframe="false"] #workarea, [data-url*="://framavectoriel.org/svg-editor.html"][data-inframe="false"] #sidepanels, [data-url*="://framavectoriel.org/svg-editor.html"][data-inframe="false"] #tools_left {
+    top: 112px !important; }
+  [data-url*="://framavectoriel.org/svg-editor.html"][data-inframe="false"] #main_button {
+    top: 46px !important; }
+  [data-url*="://framavectoriel.org/svg-editor.html"][data-inframe="false"] #tools_top {
+    top: 44px !important; }
+  [data-url*="://framavectoriel.org/svg-editor.html"][data-inframe="false"] #svg_source_container {
+    top: 92px !important; }
+  [data-url*="://framavectoriel.org/svg-editor.html"][data-inframe="false"] #tools_rect {
+    top: 214px !important; }
+  [data-url*="://framavectoriel.org/svg-editor.html"][data-inframe="false"] #tools_ellipse {
+    top: 248px !important; }
+  [data-url*="://framavectoriel.org/svg-editor.html"][data-inframe="false"] #tools_line {
+    top: 180px !important; }
+  [data-url*="://framavectoriel.org/svg-editor.html"][data-inframe="false"] #tools_shapelib {
+    top: 316px !important; }
+  [data-url*="://framavectoriel.org/svg-editor.html"][data-inframe="false"] #ruler_corner, [data-url*="://framavectoriel.org/svg-editor.html"][data-inframe="false"] #ruler_x, [data-url*="://framavectoriel.org/svg-editor.html"][data-inframe="false"] #ruler_y {
+    top: 113px !important; }
+  [data-url*="://framavectoriel.org/svg-editor.html"][data-inframe="false"] #imgbrowse {
+    top: 77px; }
+  [data-url*="://framavectoriel.org/svg-editor.html"][data-inframe="false"] #color_picker {
+    bottom: 82px !important; }
+
+[data-url*="://framavectoriel.org/svg-editor.html"] {
+  margin: 0; }
+  [data-url*="://framavectoriel.org/svg-editor.html"] body {
+    margin: 0; }
+  [data-url*="://framavectoriel.org/svg-editor.html"] #tool_save {
+    display: none; }
+  [data-url*="://framavectoriel.org/svg-editor.html"] #sidepanel_handle {
+    text-transform: uppercase; }

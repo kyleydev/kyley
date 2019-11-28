@@ -1,0 +1,67 @@
+#f-- {
+  font-size: 100%;
+}
+
+@import 'frama/bs3';
+
+#f-- .f-bs4 {
+  $primary:       #635182 !default;
+
+  $danger:        #CC2D18;
+  $info:          #11809E;
+  $warning:       #EB7239;
+  $success:       #677835;
+
+  @import 'frameworks/bootstrap4';
+  @import 'frama/bs4';
+
+  /* Fix conflicts */
+  .modal-backdrop {
+    opacity: 0.5;
+  }
+
+  .modal.fade {
+    opacity: inherit;
+
+    .modal-dialog {
+      transform: inherit;
+    }
+  }
+
+  .popover > .arrow,
+  .popover > .arrow:after {
+    border-style: none;
+  }
+
+  /* Frama */
+  .btn-soutenir {
+    color: #fff !important;
+    text-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+    background-color: #DBA306;
+    border-color: #DBA306;
+
+    &:hover, &:focus, &:active, &.active {
+      color: #fff;
+      background-color: #C48a1b;
+      border-color: #C48a1b;
+    }
+  }
+
+}
+
+/* For feedback (maybe not needed) */
+/* Modal fix */
+.modal-open #f-header,
+.modal-open #ffeedback .dropdown-menu,
+.modal-open #ffeedback .dropdown-toggle {
+  visibility:hidden;
+}
+
+.fa-drag-handle:before { /* d&d icon */
+  content: "\f142 \f142";
+  letter-spacing: 0.1em;
+}
+
+.moveable-control-box {
+  display: none !important;
+}

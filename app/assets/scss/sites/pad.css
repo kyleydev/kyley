@@ -1,0 +1,46 @@
+[data-url*=".framapad.org/p/"][data-inframe="false"] {
+  /* Fix toolbar on mobile */ }
+  [data-url*=".framapad.org/p/"][data-inframe="false"] *, [data-url*=".framapad.org/p/"][data-inframe="false"] *:before, [data-url*=".framapad.org/p/"][data-inframe="false"] *:after {
+    -webkit-box-sizing: content-box !important;
+    -moz-box-sizing: content-box !important;
+    box-sizing: content-box !important; }
+  [data-url*=".framapad.org/p/"][data-inframe="false"] #editorcontainerbox {
+    top: 42px !important; }
+  [data-url*=".framapad.org/p/"][data-inframe="false"] #embed, [data-url*=".framapad.org/p/"][data-inframe="false"] #connectivity, [data-url*=".framapad.org/p/"][data-inframe="false"] #settings, [data-url*=".framapad.org/p/"][data-inframe="false"] #importexport, [data-url*=".framapad.org/p/"][data-inframe="false"] #users {
+    top: 78px !important; }
+  [data-url*=".framapad.org/p/"][data-inframe="false"] .stickyChat {
+    top: 79px !important; }
+  [data-url*=".framapad.org/p/"][data-inframe="false"] .toolbar ul li select {
+    height: 20px !important; }
+  [data-url*=".framapad.org/p/"][data-inframe="false"] #helpbubbleslink > .buttonicon {
+    font-size: 18px !important; }
+  [data-url*=".framapad.org/p/"][data-inframe="false"] .toolbar ul li a .buttonicon {
+    top: -2px !important; }
+  [data-url*=".framapad.org/p/"][data-inframe="false"] .popup label {
+    margin-bottom: 0px;
+    font-weight: normal; }
+  [data-url*=".framapad.org/p/"][data-inframe="false"] .popup input[type="text"] {
+    -webkit-box-sizing: border-box !important;
+    -moz-box-sizing: border-box !important;
+    box-sizing: border-box !important; }
+  [data-url*=".framapad.org/p/"][data-inframe="false"] .popup h1, [data-url*=".framapad.org/p/"][data-inframe="false"] .popup h2 {
+    margin-top: 0px;
+    margin-bottom: 0px; }
+  @media only screen and (min-device-width: 320px) and (max-device-width: 720px) {
+    [data-url*=".framapad.org/p/"][data-inframe="false"] .toolbar ul.menu_left {
+      top: 42px !important; } }
+
+[data-url*=".framapad.org/p/"] {
+  /* Hide .doc export (bug avec libreoffice de Stretch) */ }
+  [data-url*=".framapad.org/p/"] #exportworda {
+    display: none; }
+  [data-url*=".framapad.org/p/"] .fa-video-camera:before {
+    font-family: ForkAwesome !important; }
+
+[data-url*="mypads.framapad.org/mypads/"] .container-fluid.ombre {
+  box-shadow: none;
+  padding-bottom: 15px; }
+
+@media (max-width: 600px) {
+  html[data-url*=".framapad.org/p/"] {
+    overflow: initial; } }

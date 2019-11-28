@@ -1,0 +1,4 @@
+[data-url*="://framanews.org/ttrss"] *, [data-url*="://framanews.org/ttrss"] *:before, [data-url*="://framanews.org/ttrss"] *:after {
+  -webkit-box-sizing: content-box !important;
+  -moz-box-sizing: content-box !important;
+  box-sizing: content-box !important; }

@@ -1,0 +1,69 @@
+/*
+Error: Invalid CSS after "...prefix:        ": expected expression (e.g. 1px, bold), was "!default;"
+        on line 8 of H:/Dev/Github/Repos/Kyley/kyley/app/app/assets/lib/fork-awesome/scss/_variables.scss
+        from line 7 of H:\Dev\Github\Repos\Kyley\kyley\app\app\assets\lib\fork-awesome\scss\fork-awesome.scss
+
+3: 
+4: $fa-font-path:        "../fonts" !default;
+5: $fa-font-size-base:   14px !default;
+6: $fa-line-height-base: 1 !default;
+7: //$fa-font-path:        "//netdna.bootstrapcdn.com/font-awesome//fonts" !default; // for referencing Bootstrap CDN font files directly
+8: $fa-css-prefix:        !default;
+9: $fa-font-family:       !default;
+10: $fa-version:          "" !default;
+11: $fa-border-color:     #eee !default;
+12: $fa-inverse:          #fff !default;
+13: $fa-li-width:         (30em / 14) !default;
+
+Backtrace:
+H:/Dev/Github/Repos/Kyley/kyley/app/app/assets/lib/fork-awesome/scss/_variables.scss:8
+H:\Dev\Github\Repos\Kyley\kyley\app\app\assets\lib\fork-awesome\scss\fork-awesome.scss:7
+F:/ProgramVault/Adobe Dreamweaver CC 2019/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/scss/parser.rb:1278:in `expected'
+F:/ProgramVault/Adobe Dreamweaver CC 2019/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/script/lexer.rb:231:in `expected!'
+F:/ProgramVault/Adobe Dreamweaver CC 2019/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/script/parser.rb:724:in `assert_expr'
+F:/ProgramVault/Adobe Dreamweaver CC 2019/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/script/parser.rb:68:in `parse'
+F:/ProgramVault/Adobe Dreamweaver CC 2019/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/scss/parser.rb:1134:in `sass_script'
+F:/ProgramVault/Adobe Dreamweaver CC 2019/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/scss/parser.rb:642:in `variable'
+F:/ProgramVault/Adobe Dreamweaver CC 2019/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/scss/parser.rb:696:in `block_child'
+F:/ProgramVault/Adobe Dreamweaver CC 2019/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/scss/parser.rb:689:in `block_contents'
+F:/ProgramVault/Adobe Dreamweaver CC 2019/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/scss/parser.rb:137:in `stylesheet'
+F:/ProgramVault/Adobe Dreamweaver CC 2019/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/scss/parser.rb:41:in `parse'
+F:/ProgramVault/Adobe Dreamweaver CC 2019/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/engine.rb:414:in `_to_tree'
+F:/ProgramVault/Adobe Dreamweaver CC 2019/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/engine.rb:321:in `to_tree'
+F:/ProgramVault/Adobe Dreamweaver CC 2019/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:327:in `block in visit_import'
+F:/ProgramVault/Adobe Dreamweaver CC 2019/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/stack.rb:88:in `block in with_import'
+F:/ProgramVault/Adobe Dreamweaver CC 2019/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/stack.rb:135:in `with_frame'
+F:/ProgramVault/Adobe Dreamweaver CC 2019/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/stack.rb:88:in `with_import'
+F:/ProgramVault/Adobe Dreamweaver CC 2019/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:326:in `visit_import'
+F:/ProgramVault/Adobe Dreamweaver CC 2019/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/base.rb:36:in `visit'
+F:/ProgramVault/Adobe Dreamweaver CC 2019/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+F:/ProgramVault/Adobe Dreamweaver CC 2019/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/stack.rb:79:in `block in with_base'
+F:/ProgramVault/Adobe Dreamweaver CC 2019/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/stack.rb:135:in `with_frame'
+F:/ProgramVault/Adobe Dreamweaver CC 2019/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/stack.rb:79:in `with_base'
+F:/ProgramVault/Adobe Dreamweaver CC 2019/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:162:in `visit'
+F:/ProgramVault/Adobe Dreamweaver CC 2019/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+F:/ProgramVault/Adobe Dreamweaver CC 2019/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/base.rb:52:in `map'
+F:/ProgramVault/Adobe Dreamweaver CC 2019/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+F:/ProgramVault/Adobe Dreamweaver CC 2019/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:171:in `block in visit_children'
+F:/ProgramVault/Adobe Dreamweaver CC 2019/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
+F:/ProgramVault/Adobe Dreamweaver CC 2019/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:170:in `visit_children'
+F:/ProgramVault/Adobe Dreamweaver CC 2019/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+F:/ProgramVault/Adobe Dreamweaver CC 2019/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:190:in `visit_root'
+F:/ProgramVault/Adobe Dreamweaver CC 2019/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/base.rb:36:in `visit'
+F:/ProgramVault/Adobe Dreamweaver CC 2019/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:161:in `visit'
+F:/ProgramVault/Adobe Dreamweaver CC 2019/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:10:in `visit'
+F:/ProgramVault/Adobe Dreamweaver CC 2019/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/root_node.rb:36:in `css_tree'
+F:/ProgramVault/Adobe Dreamweaver CC 2019/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/root_node.rb:20:in `render'
+F:/ProgramVault/Adobe Dreamweaver CC 2019/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/engine.rb:290:in `render'
+F:/ProgramVault/Adobe Dreamweaver CC 2019/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/exec/sass_scss.rb:400:in `run'
+F:/ProgramVault/Adobe Dreamweaver CC 2019/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/exec/sass_scss.rb:63:in `process_result'
+F:/ProgramVault/Adobe Dreamweaver CC 2019/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/exec/base.rb:52:in `parse'
+F:/ProgramVault/Adobe Dreamweaver CC 2019/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/exec/base.rb:19:in `parse!'
+F:/ProgramVault/Adobe Dreamweaver CC 2019/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/bin/sass:13:in `<top (required)>'
+F:/ProgramVault/Adobe Dreamweaver CC 2019/ruby/bin/sass:23:in `load'
+F:/ProgramVault/Adobe Dreamweaver CC 2019/ruby/bin/sass:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"...prefix:        \": expected expression (e.g. 1px, bold), was \"!default;\"\A         on line 8 of H:/Dev/Github/Repos/Kyley/kyley/app/app/assets/lib/fork-awesome/scss/_variables.scss\A         from line 7 of H:\Dev\Github\Repos\Kyley\kyley\app\app\assets\lib\fork-awesome\scss\fork-awesome.scss\A \A 3: \A 4: $fa-font-path:        \"../fonts\" !default;\A 5: $fa-font-size-base:   14px !default;\A 6: $fa-line-height-base: 1 !default;\A 7: //$fa-font-path:        \"//netdna.bootstrapcdn.com/font-awesome//fonts\" !default; // for referencing Bootstrap CDN font files directly\A 8: $fa-css-prefix:        !default;\A 9: $fa-font-family:       !default;\A 10: $fa-version:          \"\" !default;\A 11: $fa-border-color:     #eee !default;\A 12: $fa-inverse:          #fff !default;\A 13: $fa-li-width:         (30em / 14) !default;"; }

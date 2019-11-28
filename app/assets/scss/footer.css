@@ -1,0 +1,117 @@
+@charset "UTF-8";
+.f-bs4 #f-footer {
+  padding: 20px 0 20px 0;
+  margin: 0;
+  background: #dfdfdf;
+  color: #333;
+  font-size: 14px;
+  width: 100%;
+  max-width: 100%;
+  bottom: 0;
+  border-top: 1px solid #ccc;
+  height: auto;
+  text-align: left;
+  font-family: 'Roboto'; }
+  .f-bs4 #f-footer .container {
+    background: #dfdfdf;
+    min-height: 0px;
+    padding: 0; }
+  .f-bs4 #f-footer h1 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 0; }
+  .f-bs4 #f-footer h2 {
+    font-size: 16px;
+    font-weight: bold; }
+  .f-bs4 #f-footer a {
+    color: #333;
+    text-decoration: none;
+    border-bottom: none;
+    font-size: 14px; }
+    .f-bs4 #f-footer a .fa-fw {
+      padding: 5px;
+      width: 36px;
+      height: 36px;
+      text-decoration: none; }
+    .f-bs4 #f-footer a:hover, .f-bs4 #f-footer a:focus {
+      color: #333;
+      text-decoration: underline; }
+      .f-bs4 #f-footer a:hover .fa, .f-bs4 #f-footer a:focus .fa {
+        background: #6A5687;
+        color: #fff;
+        border-radius: 5px; }
+  .f-bs4 #f-footer .btn {
+    margin-top: 0; }
+  .f-bs4 #f-footer .popover, .f-bs4 #f-footer .input-group {
+    font-size: 14px; }
+  .f-bs4 #f-footer .popover-header {
+    font-size: 16px; }
+
+/* Display footer only when CSS is ready */
+#fp-footer[style*="display: none"] {
+  display: block !important; }
+
+/*----------------------------------------------------------------------
+  No footer in…
+*/
+[data-url*=".framaboard.org"] #f-footer,
+[data-url*=".framaboard.org"] #f-footer[style],
+[data-url*="://framabookin.org/b"] #f-footer,
+[data-url*="://framabookin.org/b"] #f-footer[style],
+[data-url*="framacalc.org/"]:not([data-url$="/_start"]):not([data-url$="framacalc.org/"]) #f-footer,
+[data-url*="framacalc.org/"]:not([data-url$="/_start"]):not([data-url$="framacalc.org/"]) #f-footer[style],
+[data-url*="://framacarte.org"][data-url*="/map/"] #f-footer,
+[data-url*="://framacarte.org"][data-url*="/map/"] #f-footer[style],
+[data-url*="://framacolibri.org"] #f-footer,
+[data-url*="://framacolibri.org"] #f-footer[style],
+[data-url*="://framacloud.org"] #f-footer,
+[data-url*="://framacloud.org"] #f-footer[style],
+[data-url*="://framadrive.org"][data-url*="index.php/app"]:not([data-url*="registration"]) #f-footer,
+[data-url*="://framadrive.org"][data-url*="index.php/app"]:not([data-url*="registration"]) #f-footer[style],
+[data-url*="://framadrive.org"][data-url*="index.php/setting"] #f-footer,
+[data-url*="://framadrive.org"][data-url*="index.php/setting"] #f-footer[style],
+[data-url*="://framaestro.org/p/"] #f-footer,
+[data-url*="://framaestro.org/p/"] #f-footer[style],
+[data-url*="://framindmap.org/c/maps"][data-url*="/edit"] #f-footer,
+[data-url*="://framindmap.org/c/maps"][data-url*="/edit"] #f-footer[style],
+[data-url*="://framinetest.org/carte/"] #f-footer,
+[data-url*="://framinetest.org/carte/"] #f-footer[style],
+[data-url*="://framapack.org/admin/"] #f-footer,
+[data-url*="://framapack.org/admin/"] #f-footer[style],
+[data-url*="://framaphonie.org"] #f-footer,
+[data-url*="://framaphonie.org"] #f-footer[style],
+[data-url*="://framapiaf.org"]:not([data-url*="/about"]) #f-footer,
+[data-url*="://framapiaf.org"]:not([data-url*="/about"]) #f-footer[style],
+[data-url*=".frama.site/admin"] #f-footer,
+[data-url*=".frama.site/admin"] #f-footer[style],
+[data-url*="://framateam.org"] #f-footer,
+[data-url*="://framateam.org"] #f-footer[style],
+[data-url*="://framavectoriel.org/svg-editor"] #f-footer,
+[data-url*="://framavectoriel.org/svg-editor"] #f-footer[style],
+[data-url*="://framavox.org"] #f-footer,
+[data-url*="://framavox.org"] #f-footer[style],
+[data-url*="://mypads.framapad.org"] #f-footer,
+[data-url*="://mypads.framapad.org"] #f-footer[style],
+[data-url*=".framapad.org/p/"] #f-footer,
+[data-url*=".framapad.org/p/"] #f-footer[style],
+[data-url*="://bot.framasoft.org"] #f-footer,
+[data-url*="://bot.framasoft.org"] #f-footer[style],
+[data-url*="://docs.framasoft.org"] #f-footer,
+[data-url*="://docs.framasoft.org"] #f-footer[style],
+[data-url*="://forum.framasoft.org"] #f-footer,
+[data-url*="://forum.framasoft.org"] #f-footer[style],
+[data-url*="://my.framasoft.org"][data-url*="source=bookmarklet"] #f-footer,
+[data-url*="://my.framasoft.org"][data-url*="source=bookmarklet"] #f-footer[style],
+[data-url*="://participer.framasoft.org"] #f-footer,
+[data-url*="://participer.framasoft.org"] #f-footer[style],
+[data-url*="://status.framasoft.org"] #f-footer,
+[data-url*="://status.framasoft.org"] #f-footer[style],
+[data-url*="://connard.pro"] #f-footer,
+[data-url*="://connard.pro"] #f-footer[style],
+[data-inframe="true"] #f-footer,
+[data-inframe="true"] #f-footer[style] {
+  display: none !important; }
+
+/* Keep position relative */
+[data-url*="framadate.org/create_"] #f-footer {
+  position: relative !important; }

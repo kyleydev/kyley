@@ -1,0 +1,75 @@
+/* No alert, no modal */
+/* ------------------------------------------------------------------ */
+[data-url*=".framaboard.org/"],
+[data-url*="://framabookin.org/b"],
+
+[data-url*="://framacarte.org"][data-url*="/map/"],                     /* dans uMap */
+[data-url*="://framacolibri.org"],
+
+[data-url*="://framinetest.org/carte/"],                                /* dans la carte Minetest */
+[data-url*="://framanews.org/ttrss"],                                   /* dans TTRSS (pas actif) */
+[data-url*="://framapack.org/admin/"],                                  /* dans l’interface admin de Framapack */
+[data-url*="://framateam.org"],
+[data-url*="://framatube.org"][data-url*="/embed_player"],              /* dans le lecteur vidéo de Mediadrop */
+[data-url*="://framavox.org"],
+
+[data-url*="://bot.framasoft.org"],
+[data-url*="://my.framasoft.org"][data-url*="source=bookmarklet"],      /* dans la popup MyFrama */
+[data-url*="://status.framasoft.org"],
+
+[data-url*="://connard.pro"],
+[data-url*="://degooglisons-internet.org"],
+[data-url*="://contributopia.org"],
+
+[data-inframe="true"] {
+  #f-alert {
+    display: none !important;
+  }
+
+  #f-modal-info[style],
+  #f-modal-info[style] + .modal-backdrop,
+  #f-modal-soutenir[style],
+  #f-modal-soutenir[style] + .modal-backdrop {
+    display: none !important;
+  }
+  .modal-open {
+    overflow: auto;
+  }
+}
+
+/* No alert only */
+/* ------------------------------------------------------------------ */
+/* Ethercalc */
+[data-url*="framacalc.org/"]:not([data-url$="/_start"]):not([data-url$="framacalc.org/"]),
+
+[data-url*="://framacarte.org"][data-url*="/map/"],                     /* uMap */
+[data-url*=".frama.site/admin"],                                        /* Grav */
+
+/* Nextcloud */
+// [data-url*="://framagenda.org"][data-url*="index.php/app"]:not([data-url*="registration"]),
+// [data-url*="://framagenda.org"][data-url*="index.php/setting"],
+[data-url*="://framadrive.org"][data-url*="index.php/app"]:not([data-url*="registration"]),
+[data-url*="://framadrive.org"][data-url*="index.php/setting"],
+
+[data-url*="://mypads.framapad.org"],                                   /* MyPads */
+[data-url*=".framapad.org/p/"],                                         /* Etherpad */
+[data-url*="://framindmap.org/c/maps"][data-url*="/edit"],              /* Wisemapping */
+[data-url*="://framaestro.org/p/"],                                     /* Maestro */
+[data-url*="://framapiaf.org"]:not([data-url*="/about"]),               /* Mastodon */
+[data-url*="://framavectoriel.org/svg-editor"],                         /* SVG-Edit */
+
+[data-url*="://docs.framasoft.org"],
+[data-url*="://framacloud.org"],
+[data-url*="://participer.framasoft.org"] {
+  #f-alert {
+    display: none !important;
+  }
+}
+
+/* No header only */
+/* ------------------------------------------------------------------ */
+[data-url*="://my.framasoft.org"][data-url*="source=bookmarklet"] {     /* MyFrama popup */
+  #f-header {
+    display: none;
+  }
+}

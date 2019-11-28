@@ -1,0 +1,8 @@
+[data-url^="http://localhost"] body {
+  background: #fee; }
+
+[data-url^="http://localhost"][data-inframe="true"] body {
+  background: #eef; }
+
+[data-url^="http://localhost"][data-url$="home.html"] body {
+  background: #efe; }

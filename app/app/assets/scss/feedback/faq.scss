@@ -1,0 +1,140 @@
+#ffb-faq {
+  padding: 15px;
+  padding-bottom: 65px;
+
+  a.toggle {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    margin-top: -10px;
+    z-index: 1;
+  }
+
+  .list-group-item-text {
+    font-size: 13px;
+    max-height: 80px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    filter: grayscale(80%);
+  }
+
+  .close {
+    margin: -5px -10px 5px 10px;
+  }
+
+  .list-group-item {
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 0;
+
+    h3 {
+      font-size: 13px;
+      font-weight: bold;
+      border-bottom: 1px dashed #ddd;
+      margin: 0 0 10px;
+      padding: 0 0 12px;
+    }
+
+    h4 {
+      font-size: 13px;
+    }
+
+    b, strong {
+      font-weight: normal;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    &:not(.active):after { /* shadow */
+      box-shadow: -5px -20px 30px #fff;
+      content: ' ';
+      display: block;
+      width: calc(100% - 20px);
+      height: 20px;
+      bottom: -20px;
+      position: absolute;
+    }
+
+    &:hover {
+      box-shadow: 0px 2px 6px lighten($orange, 25%);
+    }
+
+    &.active {
+      background: #fff;
+
+      h3 {
+        font-size: 22px;
+        color: #333;
+        font-weight: normal;
+      }
+
+      h4 {
+        font-size: 16px;
+      }
+
+      b, strong {
+        font-weight: bold;
+      }
+
+      a.toggle {
+        position: relative;
+      }
+
+      .list-group-item-text {
+        color: #333;
+        max-height: initial;
+        filter: grayscale(0%);
+      }
+
+      &:after {
+        display: none;
+      }
+    }
+
+    &.bg-info:not(.active) {
+      border: 1px solid #b2d5db;
+      white-space: pre-wrap;
+      &:after { box-shadow: -5px -20px 30px #e1f8fc; }
+      h3 { border-bottom-color: #b2d5db; }
+    }
+
+    &.bg-warning:not(.active) {
+      border: 1px solid #ffcf4f;
+      white-space: pre-wrap;
+      &:after { box-shadow: -5px -20px 30px #ffebb5; }
+      h3 { border-bottom-color: #ffcf4f; }
+    }
+
+    &.bg-danger:not(.active) {
+      border: 1px solid #e0b3a8;
+      white-space: pre-wrap;
+      &:after { box-shadow: -5px -20px 30px #fde0dc; }
+      h3 { border-bottom-color: #e0b3a8; }
+    }
+  }
+
+  p.text-right,
+  .list-group-item:not(.active) {
+    display: none;
+  }
+
+  .all .list-group-item:not(.active) {
+    display: block;
+  }
+
+  .all.filter .list-group-item {
+    display: none;
+  }
+
+  .all.nofilter .list-group-item,
+  .all.filter .list-group-item.search {
+    display: block;
+  }
+
+  .filter + .no-answer {
+    margin-top: 30px;
+  }
+}

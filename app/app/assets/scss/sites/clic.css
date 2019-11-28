@@ -1,0 +1,4 @@
+[data-url*="://framaclic.org"] body > .navbar-default {
+  background-color: #fff; }
+[data-url*="://framaclic.org"] body {
+  background-color: #eee; }

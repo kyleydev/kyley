@@ -1,0 +1,20 @@
+[data-url*="://framalibre.org"][data-inframe="true"] .main-container {
+  margin: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: auto;
+  box-shadow: none; }
+[data-url*="://framalibre.org"][data-inframe="true"] #page-header,
+[data-url*="://framalibre.org"][data-inframe="true"] .region-navigation-wrapper,
+[data-url*="://framalibre.org"][data-inframe="true"] .region-sidebar-first-wrapper,
+[data-url*="://framalibre.org"][data-inframe="true"] .region-content-wrapper .breadcrumb,
+[data-url*="://framalibre.org"][data-inframe="true"] .region-content-wrapper .tabs--primary,
+[data-url*="://framalibre.org"][data-inframe="true"] #region-content .view-title,
+[data-url*="://framalibre.org"][data-inframe="true"] #region-content .view-interets-voisins {
+  display: none; }
+[data-url*="://framalibre.org"][data-inframe="true"] .region-content-wrapper {
+  width: 100%;
+  float: none;
+  margin: 0; }
+[data-url*="://framalibre.org"][data-inframe="true"] body {
+  background: #fff; }

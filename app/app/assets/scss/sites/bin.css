@@ -1,0 +1,26 @@
+[data-url*="://framabin.org/p/"] body {
+  padding: 0; }
+[data-url*="://framabin.org/p/"] #f-bin-header a {
+  text-decoration: none; }
+[data-url*="://framabin.org/p/"] #f-bin-header .trait {
+  height: 11px;
+  border: none; }
+[data-url*="://framabin.org/p/"] .container .container {
+  width: auto;
+  padding: 0; }
+[data-url*="://framabin.org/p/"] #f-navbar .dropdown-menu > li > div {
+  white-space: inherit;
+  padding: 0; }
+[data-url*="://framabin.org/p/"] .reloadlink.navbar-brand {
+  display: none; }
+[data-url*="://framabin.org/p/"] .navbar .container,
+[data-url*="://framabin.org/p/"] #navbar,
+[data-url*="://framabin.org/p/"] #navbar .navbar-nav,
+[data-url*="://framabin.org/p/"] #navbar .navbar-nav li:first-of-type {
+  padding: 0;
+  margin: 0; }
+[data-url*="://framabin.org/p/"] .navbar {
+  background: transparent;
+  border: none; }
+[data-url*="://framabin.org/p/"] footer.container {
+  display: none; }

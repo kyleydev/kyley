@@ -1,0 +1,5 @@
+[data-url*="://framindmap.org/c/maps"][data-url*="/edit"] #header {
+  margin-top: 42px; }
+[data-url*="://framindmap.org/c/maps"][data-url*="/edit"] .navbar-brand b {
+  top: 7px;
+  position: relative; }

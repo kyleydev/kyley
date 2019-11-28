@@ -1,0 +1,45 @@
+image: framasoft/vuefs:latest
+stages:
+  - test
+  - deploy
+
+test:
+  stage: test
+  script:
+    - npm install -g yaml-lint
+    - for f in $(find ./app/ -name "*.yml" -type f);do yamllint $f;done;
+
+pages:
+  stage: deploy
+  script:
+  - npm install
+  - npm run preview
+  - mv -f public/$CI_PROJECT_NAME/* public
+  - find public -type f -iregex '.*\.\(htm\|html\|txt\|text\|js\|css\)$' -execdir gzip -f --keep {} \;
+  artifacts:
+    paths:
+    - public
+  cache:
+    paths:
+      - node_modules/
+
+production:
+  stage: deploy
+  script:
+  - npm install
+  - npm run prod -- --root=nav
+  - for f in $(find -type l);do cp --remove-destination $(readlink -f $f) $f;done;
+  - mkdir "${HOME}/.ssh"
+  - chmod 700 "${HOME}/.ssh"
+  - echo -e "${DEPLOYEMENT_KNOWN_HOSTS}" > ${HOME}/.ssh/known_hosts;
+  - eval `ssh-agent -s`
+  - ssh-add <(echo "${DEPLOYEMENT_KEY}" | base64 --decode -i);
+  - cd public/nav && echo "put -r ." | sftp ${DEPLOYEMENT_USER}@${DEPLOYEMENT_HOST}:../../web/nav/;
+  only:
+    refs:
+    - master
+    variables:
+    - $DEPLOYEMENT_KEY
+    - $DEPLOYEMENT_KNOWN_HOSTS
+    - $DEPLOYEMENT_USER
+    - $DEPLOYEMENT_HOST

@@ -1,0 +1,114 @@
+[data-url*="://framavox.org"] {
+  &#f-- {
+    background: #eee;
+  }
+
+  #fp-vox {
+    color: #333;
+
+    .lead { font-size: 21px;}
+
+    .trait {
+      height: 11px;
+      border: none;
+    }
+  }
+
+  /* Fix nav */
+  body > .navbar.navbar-top {
+    margin-top:42px;
+  }
+
+  header.lmo-navbar {
+    top: 42px;
+  }
+
+  .lmo-one-column-layout, .lmo-two-column-layout {
+    padding-top: 90px;
+  }
+
+  /* Fix Loomio */
+  .navbar__middle a {
+    text-decoration: none !important;
+  }
+
+  md-toolbar.md-default-theme:not(.md-menu-toolbar), md-toolbar:not(.md-menu-toolbar),
+  md-toolbar.md-default-theme:not(.md-menu-toolbar) h1, md-toolbar:not(.md-menu-toolbar) h1,
+  .modal-header-cancel-button {
+    background: #6A5687 !important;
+    color: #fff !important;
+  }
+
+  .sessions.new .terms,
+  .registrations.create .terms,
+  .registrations.new .terms,
+  .angular-feedback-card,
+  #dialogContent_3 .lmo-h3,
+  .signin_container .sign_up,
+  #sign-in .col-md-6:nth-child(1) > p:nth-child(3) {
+    display: none;
+  }
+
+  .sessions.new header h1,
+  .registrations.create header h1,
+  .registrations.new header h1 {
+    font-size: 48px !important;
+    margin-top: 20px !important;
+    margin-bottom: 10px !important;
+  }
+
+  .sessions.new .alert,
+  .registrations.create .alert,
+  .registrations.new .alert {
+    margin: 0 auto;
+  }
+
+  .container {
+    max-width: 100%;
+  }
+
+  .start-menu__modal-backdrop[style*="block"] {
+    display: none !important;
+  }
+
+  .thread-lintel__wrapper {
+    top:86px;
+  }
+
+  .start-menu__start-button {
+    background: #6A5687;
+  }
+
+  #menu_container_1 md-menu-item:nth-of-type(5) { // contact form is broken
+    display: none;
+  }
+
+  .logged-out {
+    #fp-vox[style] {
+      display: block !important;
+    }
+
+    .md-dialog-container,
+    .md-scroll-mask,
+    .md-dialog-backdrop,
+    .lmo-navbar {
+      display: none;
+    }
+  }
+
+  .home-hidden {
+    #fp-vox[style] {
+      display: none !important;
+    }
+
+    .md-scroll-mask,
+    .md-dialog-backdrop,
+    .lmo-navbar {
+      display : block;
+    }
+
+    .md-dialog-container {
+      display: flex;
+    }
+  }
+}

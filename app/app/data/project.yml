@@ -1,0 +1,57 @@
+commons:
+#  - blog
+  - cloud
+  - color
+#  - country
+  - doc
+#  - emoji
+  - git
+  - icon
+  - license
+  - link
+  - people
+  - soft
+  - src
+  - status
+  - taxonomy
+
+meta:
+  title: Framasoft
+  author: Framasoft
+  canonical: https://framasoft.org/nav/
+
+fnav:
+  cat:
+    logiciel:
+      ['libre', 'key', 'dvd', 'pack', 'start', 'evl', 'vvl']
+    culture:
+      ['blog', 'book', 'bookin', 'lang', 'tube', 'zic', 'games', 'minetest', 'evl']
+    services:
+      ['diolist', 'pad', 'calc', 'forms', 'agenda', 'date', 'board', 'mindmap', 'vectoriel',
+      'slides', 'maestro', 'sphere', 'piaf', 'team', 'listes', 'talk', 'vox', 'carte', 'petitions',
+      'memo', 'notes', 'bag', 'news',
+      'drop', 'bin', 'pic', 'link', 'drive', 'clic', 'my', 'git',
+      'site', 'wiki']
+    follow:
+      ['diaspora', 'mastodon', 'twitter', 'facebook', 'newsletter', 'rss',
+      'wikipedia', 'colibri', 'wikifs']
+    about:
+      ['asso', 'participer', 'charte', 'benevalo', 'contact', 'partenaires',
+      'stats', 'status', 'doc', 'faq', 'aide', 'legals', 'cgu', 'credits',
+      'moderation', 'dio2', 'cuo2']
+
+  footer:
+    frama: ['asso', 'charte', 'contact', 'stats', 'status']
+    community: ['participer', 'benevalo', 'partenaires', 'moderation']
+    site: ['aide', 'faq', 'legals', 'cgu', 'credits']
+    follow: ['diaspora', 'mastodon', 'twitter', 'facebook', 'rss']
+
+cookie:
+  don: dondl
+  optin: opt-in
+
+storage:
+  # idem in cortex.html
+  modal:
+    don: [false, 604800000]
+  optin: [false, 604800000]
