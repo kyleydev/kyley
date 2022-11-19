@@ -57,7 +57,7 @@
     "vue-loader": "^15.7.2",
     "vue-template-compiler": "^2.6.10",
     "webpack": "^4.41.2",
-    "webpack-cli": "^3.3.10",
+    "webpack-cli": "^3.3.12",
     "webpack-dev-server": "^3.9.0",
     "webpack-subresource-integrity": "^1.3.4",
     "yaml-import-loader": "^1.3.6"
